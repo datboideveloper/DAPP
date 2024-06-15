@@ -115,7 +115,7 @@ function ScrollToTop() {
   });
 }
 
-function scrollToId(id) {
+function scrollToId({ id }: { id: any }) {
   console.log(id);
   if (id.startsWith("#")) {
     id = id.substring(1);
