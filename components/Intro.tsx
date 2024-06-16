@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import iconBasescan from "@public/assets/icon basescan.png";
 import iconTelegram from "@public/assets/icon telegram.png";
 import iconTwitter from "@public/assets/icon twitter.png";
@@ -134,6 +135,9 @@ function Intro() {
           </div>
           <div className="flex flex-wrap gap-3 justify-evenly">
             <ConnectButton />
+          </div>
+          <div className="flex flex-wrap gap-3 justify-evenly">
+            <Link href="menu/page">Holders Menu</Link>
           </div>
         </div>
       </div>
