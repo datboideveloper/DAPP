@@ -137,7 +137,7 @@ function Intro() {
             <ConnectButton />
           </div>
           <div className="flex flex-wrap gap-3 justify-evenly">
-            <Link href="menu/page">Holders Menu</Link>
+            <Link href="menu">Holders Menu</Link>
           </div>
         </div>
       </div>
